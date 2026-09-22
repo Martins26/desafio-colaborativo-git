@@ -1,0 +1,27 @@
+* {
+    margin: 0;
+    padding: 0;
+    font-family: Arial, Helvetica, sans-serif;
+}
+.imagem{
+    justify-content: space-between;
+    width: 300px;
+    border-radius: 20px;
+    box-shadow: 10px 10px 10px rgba(0,0,0,0.3);
+}
+.principal{
+    text-align: center;
+    
+}
+nav{
+    justify-content: space-between;
+    text-decoration: none;
+    
+}
+.imag{
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+    gap: 20px;
+}
+
