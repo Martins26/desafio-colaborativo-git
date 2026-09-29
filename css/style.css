@@ -15,13 +15,59 @@
 }
 nav{
     justify-content: space-between;
-    text-decoration: none;
+   
+    color: white;
     
+    
+}
+nav ul{
+    list-style: none;
+    display: flex;
+    justify-content: space-between;
+    
+ 
+}
+nav a{
+    text-decoration: none;
+    color: white;
+    padding: 0 100px;
+}
+#home li{
+    list-style: none;
+    color: white;
+    
+    
+}
+.escritas_nav_bar{
+    font-weight: 1000;
+    font-size: 20px;
+    letter-spacing: 2px;
+
 }
 .imag{
     display: flex;
     flex-wrap: wrap;
     justify-content: center;
     gap: 20px;
+    
+}
+header{
+    padding: 20px 30px;
+   
+    width: 100%;
+    
+}
+.imagem{
+    border: 3px solid green;
+}
+main{
+    background-color: #8FA65D;
+    
+}
+.principal{
+    font-size: 70px;
+    padding: 50px ;
+    letter-spacing: 3px;
+    color: white;
 }
 
